@@ -74,3 +74,4 @@ myTestFunction("All crispy clean 🔥")
 * TypeScript
 * Express
 * Ollama (w/ llama3 model)
+* JSONL
