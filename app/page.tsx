@@ -123,7 +123,7 @@ export default function Home() {
             <CardHeader className="flex gap-2">
               <Badge>GET</Badge>
               <p className="text-muted">|</p>
-              <p>{"https://safespeak-api.vercel.com/api?message="}</p>
+              <p>{"https://safespeak-api.vercel.app/api?message="}</p>
             </CardHeader>
             <CardContent>
               <div className="flex gap-1">
