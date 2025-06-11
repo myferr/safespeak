@@ -3,7 +3,7 @@ name: Publish TS package
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "pub-v*.*.*"
 
 jobs:
   publish:
