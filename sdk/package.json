@@ -1,6 +1,6 @@
 {
   "name": "safespeak",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A TypeScript/JavaScript SDK to integrate with safespeak",
   "main": "dist/index.js",
   "scripts": {
