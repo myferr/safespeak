@@ -38,7 +38,7 @@ const apiEndpoint = {
 const sampleCode = `  let score: number | null;
 
   const profanityCheck = (message: string) => {
-    fetch(\`/api?message=\${message.replaceAll(" ", "+")}\`)
+    fetch(\`https://safespeak-api.vercel.app/api?message=\${message.replaceAll(" ", "+")}\`)
       .then(async (res) => {
         const data = await res.json();
         if (data.score) {
