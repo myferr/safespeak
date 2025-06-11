@@ -1,0 +1,6 @@
+{
+  "watch": ["api.ts", "config.ts", "nodemon.json"],
+  "ignore": ["logs.jsonl"],
+  "ext": "ts",
+  "exec": "npx ts-node api.ts"
+}
