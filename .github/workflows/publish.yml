@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./sdk
-        run: npm ci
+        run: npm install
 
       - name: Build package
         working-directory: ./sdk
