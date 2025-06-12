@@ -78,6 +78,11 @@ export default function Home() {
               href: "https://github.com/myferr/safespeak",
               target: "_blank",
             },
+            {
+              label: "SDK",
+              href: "https://npmjs.com/package/safespeak",
+              target: "_blank",
+            },
           ].map((i) => (
             <Link href={i.href} target={i.target} key={i.href}>
               <Button variant={"ghost"} className="py-0.5 font-mono">
